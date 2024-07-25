@@ -1,0 +1,36 @@
+body {
+    background-color: #2B2B2B;
+    color: white;
+}
+
+.main-menu {
+    padding: 34px 50px;
+}
+
+.main-menu-items {
+    border: 1px solid teal;
+    display: inline-block;
+}
+
+.main-menu-item {
+    display: inline-block;
+    padding: 12px 20px;
+    border: 1px solid red;
+}
+
+.main-menu-item + .main-menu-item {
+    margin-left: 10px;
+}
+
+.main-menu-action-button {
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    background: #A259FF;
+}
+
+.main-menu-action-button-icon {
+    width: 20px;
+    height: 20px;
+}
